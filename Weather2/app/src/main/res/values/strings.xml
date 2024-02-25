@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Погород</string>
+    <string name="logo">Погода</string>
+    <string name="gpsknow">Узнать погоду по GPS </string>
+    <string name="userFild">Введите населённый пункт</string>
+    <string name="answer">Ответ</string>
+    <string name="tip">Введите город</string>
+    <string name="city_add">Сравнить погоду с...</string>
+    <string name="button">Button</string>
+    <string name="button_gps">По координатам</string>
+    <string name="buttonw">Узнать результат</string>
+    <string name="back">Вернуться</string>
+</resources>

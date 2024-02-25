@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    tools:context=".A2city">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/textView4X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/userFild1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/userFild"
+            android:inputType="textPersonName"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/userFild2"
+            android:layout_width="190dp"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/userFild"
+            android:inputType="textPersonName"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/textView3X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:text="@string/buttonw"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:text="@string/buttonw"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="379dp"
+        android:layout_height="295dp">
+
+        <TextView
+            android:id="@+id/textView2X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tVanswer1"
+            android:layout_width="196dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:text="@string/answer"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tVanswer2"
+            android:layout_width="190dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:text="@string/answer"
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/textView1X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="19dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:textColor="@color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/textViewX"
+            android:layout_height="200dp"
+            android:layout_width="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="@string/back" />
+    </TableRow>
+</TableLayout>

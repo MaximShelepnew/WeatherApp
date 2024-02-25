@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/m1">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+
+        android:gravity="center"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userFild"
+        android:layout_width="369dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="158dp"
+        android:backgroundTint="@color/m2"
+        android:ems="10"
+        android:hint="@string/userFild"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_below="@+id/userFild"
+        android:layout_alignStart="@+id/userFild"
+        android:layout_alignEnd="@+id/userFild"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/m2"
+        android:gravity="center"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:text="@string/answer"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
